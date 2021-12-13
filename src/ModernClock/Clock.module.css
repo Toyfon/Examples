@@ -1,0 +1,92 @@
+
+.clock {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./img/kisspng-clock-face-digital-clock-time-clip-art-clock-5acd5bdf752124.7453378015234078394798.png");
+    background-size: cover;
+    position: relative;
+}
+
+.clock:before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #091921;
+    z-index: 11;
+}
+
+.hour {
+    position: absolute;
+}
+
+.hours {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+}
+
+.hours:before {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 80px;
+    background: rgba(234, 30, 48, 0.83);
+    z-index: 10;
+    border-radius: 6px 6px 0 0;
+}
+
+.minute {
+    position: absolute;
+}
+
+.minutes {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+}
+
+.minutes:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 160px;
+    background: rgba(234, 223, 81, 0.83);
+    z-index: 10;
+    border-radius: 6px 6px 0 0;
+}
+
+.second {
+    position: absolute;
+}
+
+.seconds {
+    width: 370px;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    border-radius: 50%;
+}
+
+
+.seconds:before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 230px;
+    background: rgba(213, 204, 204, 0.83);
+    z-index: 10;
+    border-radius: 6px 6px 0 0;
+}
+
