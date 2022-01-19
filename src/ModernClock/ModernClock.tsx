@@ -10,6 +10,7 @@ export const ModernClock = () => {
     const seconds = date.getSeconds() * deg
 
     useEffect(() => {
+        console.log( "Useeffect")
         setTimeout(() => {
             setDate(new Date())
         }, 1000)
